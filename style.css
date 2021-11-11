@@ -1,0 +1,64 @@
+*{
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Serif JP', serif;
+font-family: 'Saira Stencil One', cursive;
+font-family: 'Staatliches', cursive;
+letter-spacing: 1px;
+}
+nav{
+    background-color:  rgb(248, 211, 4);
+   margin-bottom: 20px;
+}
+
+nav img{
+    max-width: 64px;
+    max-height: 70px;
+    object-fit: contain;
+    border-radius: 45%;
+}
+main{
+    text-align: center;
+
+}
+#input{
+    width: 98%;
+    min-height: 240px;
+    border-radius: 14px;
+    border:1px solid rgb(248, 211, 4);
+    color: green;
+    font-family: sans-serif !important;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttons button{
+    width: 30%;
+    border-radius: 12px;
+    border:0px;
+    padding: 12px;
+    background-color: rgb(248, 211, 4); 
+    color: black;
+    font-weight: bold;
+}
+#stop:hover{
+     background-color: rgb(223, 26, 26);
+     color: white;
+}
+#run:hover{
+    background-color: rgb(70, 233, 70);
+    color: white;
+}
+#output{
+    color: black;
+    border-bottom:1px solid black;
+    margin: 10px;
+    font-weight: bold;
+    font-size: large;
+
+}
+#result{
+    max-width: 100% !important;
+}
+ 
